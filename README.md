@@ -4,17 +4,15 @@ This template should help get you started developing with Tauri, React and Types
 
 ## Dependencies
 
-```bash
-sudo apt update
-sudo apt install libwebkit2gtk-4.0-dev \
-    build-essential \
-    curl \
-    wget \
-    file \
-    libssl-dev \
-    libgtk-3-dev \
-    libayatana-appindicator3-dev \
-    librsvg2-dev
+- [rust](https://www.rust-lang.org/learn/get-started)
+- [tauri](https://tauri.app/start/prerequisites/)
+- [pnpm](https://pnpm.io/installation)
+
+## Getting Started
+
+```
+pnpm install
+npm run tauri dev
 ```
 
 ## Recommended IDE Setup
